@@ -1,0 +1,17 @@
+%fieldset.filter
+  %legend
+    = t("views.links.filter")
+  %div
+    = form_tag links_path, :method => :get, :class => 'well' do
+      %fieldset.inputs
+        %ol
+          - [:url, :page_rank, :placement, :link_name, :keyword, :seller, :payment_method].each do |field|
+            %li.input
+              %label.control-label{ :for => field }
+                = t("views.links.#{field}")
+              = text_field_tag field, params[field]
+
+      %fieldset.buttons
+        %input.btn{:type => :submit, :value => "Submit", :class => 'btn'}
+
+

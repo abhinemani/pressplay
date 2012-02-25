@@ -1,0 +1,30 @@
+%h2= title @link.name
+
+%table.table
+  %tr
+    %th= t("views.links.url")
+    %td= @link.url
+  %tr
+    %th= t("views.links.page_rank")
+    %td= @link.page_rank
+  %tr
+    %th= t("views.links.placement")
+    %td= @link.placement
+  %tr
+    %th= t("views.links.name")
+    %td= @link.name
+  %tr
+    %th= t("views.links.keyword")
+    %td= @link.keyword
+  %tr
+    %th= t("views.links.seller")
+    %td= @link.seller_name
+  %tr
+    %th= t("views.links.payment_method")
+    %td= @link.payment_method_name
+  %tr
+    %th= t("views.links.days_left")
+    %td= @link.days_left
+
+.action-links
+  = link_to t("views.back_to_links"), links_path

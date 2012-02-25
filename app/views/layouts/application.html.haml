@@ -1,0 +1,44 @@
+!!!
+%html
+  %head
+    %meta{'http-equiv' => 'viewport', :content => 'width=device-width, initial-scale=1.0'}
+    = display_meta_tags :site => "Link Manager"
+    = javascript_include_tag "application"
+    = javascript_include_tag "bootstrap"
+    = stylesheet_link_tag "bootstrap"
+    = stylesheet_link_tag "bootstrap-responsive"
+
+    = csrf_meta_tags
+
+  %body
+
+
+    .navbar
+      .navbar-inner
+        .container
+          = link_to root_path, :class => 'brand' do
+            %span
+              PressPlay
+          .nav-collapse
+            %ul.nav
+              = render :partial => 'layouts/menu'
+    .container
+      - flash.each do |name, message|
+        #notify-container
+          %div{:class => "alert"}
+            = message
+      #page_content
+        = yield
+
+      .footer
+        #footer_content
+          %ul#nav_bottom
+            %li
+              = link_to "About", "#"
+              %p
+                Comming soon
+          %p.copyright
+            copyright @2011
+          %ul.site_links
+            %li
+              = link_to "Links Manager", root_path

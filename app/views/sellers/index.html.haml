@@ -1,0 +1,27 @@
+%h2
+  = title t("views.sellers.title")
+
+%p
+  = link_to t("views.application.new"), new_seller_path, :class => "button green tall"
+
+- if @sellers.present?
+  %table.list_table
+    %thead
+      %tr
+        %th
+          = t("views.sellers.id")
+        %th
+          = t("views.sellers.name")
+        %th.actions
+          = t("views.application.actions")
+    %tbody
+      - @sellers.each do |seller|
+        %tr
+          %td
+            = seller.id
+          %td
+            = seller.name
+          %td.actions
+            = link_to t("views.application.edit"), edit_seller_path(seller.id)
+            = link_to t("views.application.destroy"), seller, :confirm => t("views.application.are_you_sure"), :method => :delete
+

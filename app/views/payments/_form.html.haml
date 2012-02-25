@@ -1,0 +1,9 @@
+= semantic_form_for [@link, @payment] do |f|
+  = f.inputs do
+    = f.input :seller, :as => :select
+    = f.input :payment_method, :as => :select
+    = f.input :amount
+    = f.input :paid_at, :as => :datepicker, :input_html => {:class => 'datepicker', :value => to_datepicker(@payment.paid_at) }
+    = f.input :next_payment_at, :as => :datepicker, :input_html => {:class => 'datepicker', :value => to_datepicker(@payment.next_payment_at)}
+  = f.buttons do
+    = f.commit_button :button_html => { :class => 'button green tall', :disable_with => t("views.application.wait") }

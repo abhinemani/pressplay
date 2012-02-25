@@ -1,0 +1,23 @@
+common: &common
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  pool: 5
+  host: localhost
+
+development:
+  <<: *common
+  database: link_manager_development
+  username: test
+  password: test
+test:
+  <<: *common
+  database: link_manager_test
+  username: root
+  password: '123'
+
+production:
+  <<: *common
+  database: link_manager_production
+  username: root
+  password: '123'

@@ -1,0 +1,17 @@
+%h1= title t("views.logs.title")
+
+- if @logs.present?
+  %table.list_table
+    %thead
+      %tr
+        %th= t("views.logs.created_at")
+        %th= t("views.logs.user")
+        %th= t("views.logs.link")
+        %th= t("views.logs.description")
+    %tbody
+      - @logs.each do |log|
+        %tr
+          %td= l(log.created_at)
+          %td= link_to log.user.email, logs_path(:user_id => log.user.id) 
+          %td= link_to log.link.name, logs_path(:link_id => log.link.id)
+          %td= log.description

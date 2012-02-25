@@ -1,0 +1,141 @@
+ru:
+  time:
+    formats:
+      default: "%d.%m.%Y %H:%M"
+  date: 
+    formats:
+      default: "%d.%m.%Y"
+  support:
+    array:
+      two_words_connector: "; "
+  activerecord:
+    attributes:
+      user:
+        email: "Email"
+        password: "Пароль"
+        remember_me: "Не выходить из системы"
+    errors:
+      models:
+        payment_method:
+          attributes:
+            name:
+              blank: "Название не может быть пустым"
+        seller:
+          attributes:
+            name:
+              blank: "Имя не может быть пустым"
+        link:
+          attributes:
+            url:
+              blank: "Ссылка не может быть пустой"
+            page_rank: 
+              inclusion: "Должно быть в интервале от 1 до 10"
+              not_a_number: "Должно быть числом"
+            name:
+              blank: "Название не может быть пустым"
+            keyword:
+              blank: "Ключевое слово не может быть пустым"
+        payment:
+          attributes:
+            amount:
+              not_a_number: "Должна быть числом"
+              blank: "Не может быть пустой"
+            paid_at:
+              blank: "Не может быть пустой"
+              less_than: Не может быть позднее даты следующей оплаты
+            next_payment_at:
+              blank: "Не может быть пустой"
+              less_than: Не может быть ранее одной из действующих оплат
+  auth: 
+    sign_in: "Вход"
+    sign_out: "Выход"
+
+  views:
+    application:
+      links: "Ссылки"
+      payment_methods: "Методы оплаты"
+      sellers: "Продавцы"
+      log: "Журнал"
+      actions: "Действия"
+      edit: "Ред."
+      show: "Просм."
+      destroy: "Удал."
+      are_you_sure: "Вы уверены?"
+      new: "Добавить"
+      successfully_created: "Успешно создано"
+      successfully_updated: "Успешно изменено" 
+      wait: "..."
+    links:
+      title: "Ссылки"
+      url: "URL"
+      page_rank: "PR"
+      placement: "Размещение"
+      name: "Название"
+      keyword: "Ключевое слово"
+      seller: "Продавец"
+      payment_method: "Метод оплаты"
+      days_left: "Дней до оплаты"
+      edit: "Редактировать"
+      payments: "Оплаты"
+      check: "Проверка ссылок"
+      check_label: "Введите ссылки на проверку. Раздеренные переводом строки"
+      check_button: "Проверить"
+      filter: "Фильтр"
+      do_filter: "Фильтровать"
+    payment_methods:
+      title: "Методы оплаты"
+      id: "id"
+      name: "Название"
+      new: "Новый метод оплаты"
+      edit: "Редактировать метод оплаты"
+    sellers:
+      title: "Справочник продавцов"
+      id: "id"
+      name: "Имя"
+      new: "Новый продавец"
+      edit: "Редактировать продавца"
+    payments:
+      new: "Оплата"
+      seller: "Продавец"
+      payment_method: "Метод оплаты"
+      amount: "Разовая сумма"
+      paid_at: "Дата оплаты"
+      next_payment_at: "Оплачено до"
+      payments_for: "Оплаты для %{name}"
+      new_for: "Новая оплата для %{name}"
+      edit_for: "Редактирование оплаты для %{name}"
+      id: "id"
+      per_month: "В месяц"
+    logs:
+      title: "Журнал"
+      created_at: "Дата"
+      description: "Описание"
+      user: "Пользователь"
+      link: "Ccылка"
+    back_to_links: Назад к просмотру ссылок
+  formtastic:
+    labels:
+      payment:
+        seller: "Продавец"
+        payment_method: "Метод оплаты"
+        amount: "Разовая сумма"
+        paid_at: "Дата оплаты"
+        next_payment_at: "Оплачено до"
+      seller:
+        name: "Имя"
+      payment_method:
+        name: "Название"
+      link:
+        url: "URL"
+        page_rank: "PR"
+        placement: "Размещение"
+        name: "Название"
+        keyword: "Ключевое слово"
+    actions:
+      create: "Создать"
+      update: "Сохранить"
+  log:
+    user:
+      create:
+        link: "%{user} создал ссылку %{link}"
+        payment_for_link: "%{user} оплатил ссылку %{link} c %{from} по %{to}"

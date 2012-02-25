@@ -1,0 +1,14 @@
+%h1= title t("views.links.check")
+
+- if @links_to_check.present?
+  %ul.checked-links
+    - @links_to_check.each do |link|
+      %li
+        %span{:class => checked_link_class(@links, link)}
+          = link
+
+= form_tag check_links_path do
+  %p
+    = text_area_tag :links, params[:links], :rows => 15, :placeholder => t("views.links.check_label"), :class => 'check-links'
+  %p
+    = submit_tag t("views.links.check_button"), :class => "button green tall"

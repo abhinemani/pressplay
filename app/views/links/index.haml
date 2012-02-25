@@ -1,0 +1,35 @@
+%h1
+  = title t("views.links.title")
+
+%p
+  = link_to t("views.application.new"), new_link_path, :class => "btn"
+  = link_to t("views.links.check"), check_links_path, :class => "btn"
+
+.sideleft
+  - if @links.present?
+    %table.table
+      %thead
+        %tr
+          %th= t("views.links.url")
+          %th= t("views.links.page_rank")
+          %th= t("views.links.placement")
+          %th= t("views.links.name")
+          %th= t("views.links.keyword")
+          %th.actions= t("views.application.actions")
+      %tbody
+        - @links.each do |link|
+          %tr
+            %td= link.name
+            %td= link.page_rank
+            %td= link.placement
+            %td= link.url
+            %td= link.keyword
+            %td.actions
+              = link_to t("views.links.payments"), link_payments_path(link.id) 
+              = link_to t("views.application.show"), link_path(link.id) 
+              = link_to t("views.application.edit"), edit_link_path(link.id)
+              = link_to "Destroy", link, :confirm => "Are_you_sure", :method => :delete
+.sideright
+  = render :partial => 'filter'
+
+.clear

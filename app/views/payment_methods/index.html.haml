@@ -1,0 +1,26 @@
+%h2
+  = title t("views.payment_methods.title")
+
+%p
+  = link_to t("views.application.new"), new_payment_method_path, :class => "button green tall"
+
+- if @methods.present?
+  %table.list_table
+    %thead
+      %tr
+        %th
+          = t("views.payment_methods.id")
+        %th
+          = t("views.payment_methods.name")
+        %th.actions
+          = t("views.application.actions")
+    %tbody
+      - @methods.each do |method|
+        %tr
+          %td
+            = method.id
+          %td
+            = method.name
+          %td.actions
+            = link_to t("views.application.edit"), edit_payment_method_path(method.id)
+            = link_to t("views.application.destroy"), method, :confirm => t("views.application.are_you_sure"), :method => :delete
