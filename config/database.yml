@@ -1,5 +1,5 @@
 common: &common
-  adapter: postgres
+  adapter: postgresql
   encoding: utf8
   reconnect: false
   pool: 5
@@ -8,8 +8,8 @@ common: &common
 development:
   <<: *common
   database: pressplay-test
-  username: test
-  password: test
+  username: abhinemani
+  password: 
 test:
   <<: *common
   database: link_manager_test

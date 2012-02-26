@@ -5,7 +5,7 @@
     = form_tag links_path, :method => :get, :class => 'well' do
       %fieldset.inputs
         %ol
-          - [:url, :page_rank, :placement, :link_name, :keyword, :seller, :payment_method].each do |field|
+          - [:url, :page_rank, :placement, :link_name, :keyword].each do |field|
             %li.input
               %label.control-label{ :for => field }
                 = t("views.links.#{field}")

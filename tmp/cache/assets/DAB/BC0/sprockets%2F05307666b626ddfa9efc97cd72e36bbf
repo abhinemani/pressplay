@@ -1,4 +1,6 @@
-o: ActiveSupport::Cache::Entry	:@expires_in0:@compressedF:@value{"asset_paths["/$root/app/assets/stylesheets/bootstrap.css"	body":J/*!
+o: ActiveSupport::Cache::Entry	:@compressedF:@value{I"
+class:EFI"BundledAsset;FI"id;F"%b74e08000d46bb63572e7a4238dba88cI"logical_path;FI"bootstrap.css;TI"pathname;FI"/$root/app/assets/stylesheets/bootstrap.css;FI"content_type;FI"text/css;FI"
+mtime;FI"2012-02-26T10:40:25-06:00;FI"	body;FI"⁄K/*!
  * Bootstrap v2.0.1
  *
  * Copyright 2012 Twitter, Inc
@@ -1651,6 +1653,21 @@ table .span12 {
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
+#new_link {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #eee;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
 .well {
   min-height: 20px;
   padding: 19px;
@@ -3498,7 +3515,5 @@ a.thumbnail:hover {
 .invisible {
   visibility: hidden;
 }
-"content_type"text/css"
-class"BundledAsset"
-mtime"2012-02-25T14:19:21-06:00"_version"%46dde6621c301f4928e3b34efee9e3b5"id"%54832e834cfd32d8206259316ce6ce17"dependency_paths[{"hexdigest"%a9b7172bf9f85df16a5366bbb513a0b8"
-mtimeu:	Time4Ä  PM"	path"/$root/app/assets/stylesheets/bootstrap.css"pathname"/$root/app/assets/stylesheets/bootstrap.css"logical_path"bootstrap.css:@created_atf1330201167.2063999 5®
+;FI"asset_paths;F[I"/$root/app/assets/stylesheets/bootstrap.css;FI"dependency_paths;F[{I"	path;FI"/$root/app/assets/stylesheets/bootstrap.css;FI"
+mtime;FIu:	TimePÄ  ê°:@_zoneI"CST;T:offseti˛†´I"hexdigest;F"%4cbcc7e40678ba7824b39139755ea5b2I"_version;F"%46dde6621c301f4928e3b34efee9e3b5:@created_atf1330274563.872769:@expires_in0

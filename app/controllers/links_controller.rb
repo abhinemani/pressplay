@@ -11,6 +11,7 @@ class LinksController < ApplicationController
     @links = apply_scopes(Link).order('created_at DESC')
     @links = @links.where(:id => Link.by_seller(params[:seller])) if params[:seller].present?
     @links = @links.where(:id => Link.by_payment_method(params[:payment_method])) if params[:payment_method].present?
+    @link2 = Link.new
   end
 
   def show
