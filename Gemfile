@@ -24,6 +24,7 @@ end
 group :production do
   gem "passenger", "~> 3.0.9"
   gem "exception_notification", "~> 2.5.2"
+  gem 'pg'
 end
 
 gem 'jquery-rails'
