@@ -1,5 +1,5 @@
 common: &common
-  adapter: mysql2
+  adapter: sqlite
   encoding: utf8
   reconnect: false
   pool: 5
@@ -7,7 +7,7 @@ common: &common
 
 development:
   <<: *common
-  database: link_manager_development
+  database: pressplay-test
   username: test
   password: test
 test:

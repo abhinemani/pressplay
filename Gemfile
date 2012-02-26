@@ -1,8 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.1.1'
-
-gem 'mysql2'
+gem 'rake' , '>= 0.9.2'
 
 gem 'json'
 
@@ -34,6 +33,7 @@ group :development do
   gem 'capistrano', :require => false
   gem 'capistrano-recipes', :require => false
   gem 'capistrano_colors', :require => false
+  gem 'pg'
 end
 
 group :test do

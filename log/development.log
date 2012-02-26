@@ -10913,3 +10913,191 @@ ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
 Rendered /Users/abhinemani/.rvm/gems/ree-1.8.7-2012.01@link_manager/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
 Rendered /Users/abhinemani/.rvm/gems/ree-1.8.7-2012.01@link_manager/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
 Rendered /Users/abhinemani/.rvm/gems/ree-1.8.7-2012.01@link_manager/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 18:55:06 -0600
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  
+
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (29.8ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 19:01:39 -0600
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  
+
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 19:01:40 -0600
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  
+
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 19:01:50 -0600
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  
+
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 19:19:09 -0600
+
+PG::Error (FATAL:  role "root" does not exist
+):
+  
+
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 19:19:13 -0600
+
+PG::Error (FATAL:  role "root" does not exist
+):
+  
+
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 19:20:29 -0600
+
+PG::Error (FATAL:  role "root" does not exist
+):
+  
+
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 19:20:30 -0600
+
+PG::Error (FATAL:  role "root" does not exist
+):
+  
+
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 19:20:32 -0600
+
+PG::Error (FATAL:  role "root" does not exist
+):
+  
+
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 19:20:33 -0600
+
+PG::Error (FATAL:  role "root" does not exist
+):
+  
+
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 19:20:52 -0600
+
+PG::Error (FATAL:  database "link_manager_development" does not exist
+):
+  
+
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 19:20:54 -0600
+
+PG::Error (FATAL:  database "link_manager_development" does not exist
+):
+  
+
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 19:21:34 -0600
+
+PG::Error (FATAL:  database "abhinemani" does not exist
+):
+  
+
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 19:25:18 -0600
+
+PG::Error (FATAL:  role "test" does not exist
+):
+  
+
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 19:44:09 -0600
+
+PG::Error (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+):
+  
+
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 19:44:11 -0600
+
+PG::Error (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+):
+  
+
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/abhinemani/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.6ms)
