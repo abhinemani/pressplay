@@ -1,5 +1,5 @@
 common: &common
-  adapter: sqlite
+  adapter: postgres
   encoding: utf8
   reconnect: false
   pool: 5
